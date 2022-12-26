@@ -6,6 +6,7 @@ import javax.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
+<<<<<<< HEAD
     private String message;
 
     public void init() {
@@ -26,3 +27,7 @@ public class HelloServlet extends HttpServlet {
     public void destroy() {
     }
 }
+=======
+    // alo Duy Hung
+}
+>>>>>>> Bachvip
